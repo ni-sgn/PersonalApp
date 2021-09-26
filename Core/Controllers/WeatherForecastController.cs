@@ -17,10 +17,12 @@ namespace Core.Controllers
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
+        private readonly Services.Repository.IRepository _repository;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, Services.Repository.IRepository repository)
         {
             _logger = logger;
+            _repository = repository;
         }
 
         [HttpGet]
@@ -35,5 +37,7 @@ namespace Core.Controllers
             })
             .ToArray();
         }
+
+        
     }
 }

@@ -13,6 +13,11 @@ namespace DAL.Context
         public DbSet<DAL.Entities.BookRatings> bookRatings {get;set;}
         public DbSet<DAL.Entities.BookTypes> bookTypes {get;set;}
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Seed();
+        }
+
     }
 }
 

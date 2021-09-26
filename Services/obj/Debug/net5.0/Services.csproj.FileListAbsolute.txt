@@ -1,0 +1,15 @@
+/media/penguin/Trash_Compactor/Nika_Backup/Code/MVC_Personal_App/Services/obj/Debug/net5.0/Services.csproj.AssemblyReference.cache
+/media/penguin/Trash_Compactor/Nika_Backup/Code/MVC_Personal_App/Services/obj/Debug/net5.0/Services.GeneratedMSBuildEditorConfig.editorconfig
+/media/penguin/Trash_Compactor/Nika_Backup/Code/MVC_Personal_App/Services/obj/Debug/net5.0/Services.AssemblyInfoInputs.cache
+/media/penguin/Trash_Compactor/Nika_Backup/Code/MVC_Personal_App/Services/obj/Debug/net5.0/Services.AssemblyInfo.cs
+/media/penguin/Trash_Compactor/Nika_Backup/Code/MVC_Personal_App/Services/obj/Debug/net5.0/Services.csproj.CoreCompileInputs.cache
+/media/penguin/Trash_Compactor/Nika_Backup/Code/MVC_Personal_App/Services/bin/Debug/net5.0/Services.deps.json
+/media/penguin/Trash_Compactor/Nika_Backup/Code/MVC_Personal_App/Services/bin/Debug/net5.0/Services.dll
+/media/penguin/Trash_Compactor/Nika_Backup/Code/MVC_Personal_App/Services/bin/Debug/net5.0/ref/Services.dll
+/media/penguin/Trash_Compactor/Nika_Backup/Code/MVC_Personal_App/Services/bin/Debug/net5.0/Services.pdb
+/media/penguin/Trash_Compactor/Nika_Backup/Code/MVC_Personal_App/Services/bin/Debug/net5.0/DAL.dll
+/media/penguin/Trash_Compactor/Nika_Backup/Code/MVC_Personal_App/Services/bin/Debug/net5.0/DAL.pdb
+/media/penguin/Trash_Compactor/Nika_Backup/Code/MVC_Personal_App/Services/obj/Debug/net5.0/Services.csproj.CopyComplete
+/media/penguin/Trash_Compactor/Nika_Backup/Code/MVC_Personal_App/Services/obj/Debug/net5.0/Services.dll
+/media/penguin/Trash_Compactor/Nika_Backup/Code/MVC_Personal_App/Services/obj/Debug/net5.0/ref/Services.dll
+/media/penguin/Trash_Compactor/Nika_Backup/Code/MVC_Personal_App/Services/obj/Debug/net5.0/Services.pdb

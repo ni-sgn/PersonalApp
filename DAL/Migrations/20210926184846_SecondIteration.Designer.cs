@@ -4,14 +4,16 @@ using DAL.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace DAL.Migrations
 {
     [DbContext(typeof(CustomDbContext))]
-    partial class CustomDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210926184846_SecondIteration")]
+    partial class SecondIteration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -91,15 +93,6 @@ namespace DAL.Migrations
                     b.HasIndex("BookRatings_Id");
 
                     b.ToTable("books");
-
-                    b.HasData(
-                        new
-                        {
-                            Books_Id = 1,
-                            Author_Firstname = "John",
-                            Author_Lastname = "Doe",
-                            Title = "13km under pressure"
-                        });
                 });
 
             modelBuilder.Entity("BookTypesBooks", b =>

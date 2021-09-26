@@ -26,6 +26,7 @@ namespace Core
 
             services.AddControllersWithViews();
             services.AddDbContext<DAL.Context.CustomDbContext>(options => options.UseSqlServer("Server=localhost; Database=PersonalAPP_Db; User Id=SA; Password=P2ssw0rd;"));
+            services.AddTransient<Services.Repository.IRepository, Services.Repository.Implementation.Repository>();
             // In production, the React files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
